@@ -124,13 +124,13 @@ int main(){
         printf("2.  Para Área.\n");
         printf("3.  Para PIB.\n");
         printf("4.  Para Nº de Pontos Turisticos.\n");
-        printf("5.  Para Densidade Demográfica.\n");
+        printf("5.  Para Densidade Populacional.\n");
         scanf("%d", &opc);
 
-    switch (opc)
+    switch (opc)                  //Comparação das cartas, conforme escolha do usuario, (população, área, PIB, Pontos Turísticos e densidade Populacional).
     {
     case 1:
-
+        
         printf("\nComparação das cartas (Atributo: População):\n");
         printf("%s: %u\n", cidade1, populacao1);
         printf("%s: %u\n", cidade2, populacao2);                             
